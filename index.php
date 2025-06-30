@@ -2,9 +2,16 @@
 
 $name = "John doe";
 
-// echo str_replace("J","v",$name);
-// echo str_ireplace("j","v",$name);
-// echo ucwords($name);
- 
+$age = 0;
+
+if ($age >= 18) {
+    echo "You are an adult.";
+}
+else if ( $age == 0){
+    echo "invalid age";
+} 
+else {
+    echo "You are a minor.";
+} 
 
 ?>
