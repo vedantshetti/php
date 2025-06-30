@@ -1,12 +1,17 @@
-<?php
+<?php 
 
-echo "Hello, World hey ";
+$name = "John Doe";
+$age = 30;
+$city = "New York"; 
 
-// hii everyone
+echo "my name is " . $name;
+echo "<br> my age is  = $age% ";
 
-/*
-vednat 
-hii
- */
+echo "<br>";
 
-?> 
+var_dump($name);
+
+echo "<br>";
+
+var_dump($age);
+?>
