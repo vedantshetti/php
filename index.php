@@ -1,17 +1,10 @@
 <?php 
 
-$name = "John Doe";
-$age = 30;
-$city = "New York"; 
+$name = "John doe";
 
-echo "my name is " . $name;
-echo "<br> my age is  = $age% ";
+// echo str_replace("J","v",$name);
+// echo str_ireplace("j","v",$name);
+// echo ucwords($name);
+ 
 
-echo "<br>";
-
-var_dump($name);
-
-echo "<br>";
-
-var_dump($age);
 ?>
