@@ -1,17 +1,21 @@
-<?php 
+<!DOCTYPE html>
+<html lang="en">
 
-$name = "John doe";
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
-$age = 0;
+<body>
+    <?php
 
-if ($age >= 18) {
-    echo "You are an adult.";
-}
-else if ( $age == 0){
-    echo "invalid age";
-} 
-else {
-    echo "You are a minor.";
-} 
+    $i = 1;
+    while ($i <= 10) {
+    ?>
+        <p> <?php echo $i ?></p>
+    <?php $i++;
+    } ?>
+</body>
 
-?>
+</html>
