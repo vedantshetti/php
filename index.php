@@ -1,21 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+$fruits= array("apple", "banana", "cherry", "date", "elderberry");  
 
-<body>
-    <?php
+foreach($fruits as $fruit) {
+    echo $fruit . "<br>";
+}
 
-    $i = 1;
-    while ($i <= 10) {
-    ?>
-        <p> <?php echo $i ?></p>
-    <?php $i++;
-    } ?>
-</body>
 
-</html>
+?>
