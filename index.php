@@ -1,10 +1,9 @@
 <?php 
 
-$fruits= array("apple", "banana", "cherry", "date", "elderberry");  
+$employees = array("webdesigner", "developer", "manager", "designer", "tester");
 
-foreach($fruits as $fruit) {
-    echo $fruit . "<br>";
-}
+echo "<pre>" ;
+print_r($employees);
 
 
 ?>
