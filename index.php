@@ -15,6 +15,6 @@ foreach($employees as $e=>$value ) {
     ?>
 
 
-<p> <b><?php echo $e?>:</b><?php echo $value ?></p>
+<p> <b><?php echo ucwords($e)?>:</b><?php echo $value ?></p>
 
 <?php } ?>
