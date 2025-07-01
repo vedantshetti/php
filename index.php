@@ -1,10 +1,14 @@
 <?php
 
+$a = 14;
+$b = 10;
 
-function myFun(){
-    echo "weloce to my function";
+sum($a, $b);
+
+function sum($num1, $num2 ){
+    echo $num1 + $num2;
 }
 
-myFun();
+
 
 ?>
