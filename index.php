@@ -1,9 +1,20 @@
 <?php 
 
-$employees = array("webdesigner", "developer", "manager", "designer", "tester");
-
-echo "<pre>" ;
-print_r($employees);
-
-
+$employees=array(
+    "vedant" => "app developer",
+    "siddharth" => "web developer",
+    "sahil" => "data scientist",
+    "sachin" => "android developer",
+    "saurabh" => "ios developer",
+);
 ?>
+
+
+<?php 
+foreach($employees as $e=>$value ) {
+    ?>
+
+
+<p> <b><?php echo $e?>:</b><?php echo $value ?></p>
+
+<?php } ?>
