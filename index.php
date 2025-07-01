@@ -1,12 +1,14 @@
 <?php
 
 $a = 14;
-$b = 10;
+$b = 1000;
 
-sum($a, $b);
+$total = sum($a, $b);
+
+echo $total;
 
 function sum($num1, $num2 ){
-    echo $num1 + $num2;
+    return  $num1 + $num2;
 }
 
 
