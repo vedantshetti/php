@@ -1,20 +1,32 @@
-<?php 
+<!-- multidimensional array -->
 
-$employees=array(
-    "vedant" => "app developer",
-    "siddharth" => "web developer",
-    "sahil" => "data scientist",
-    "sachin" => "android developer",
-    "saurabh" => "ios developer",
+<?php
+
+
+$students = array(
+    array(
+        "age" => 20,
+        "grade" => "A",
+        "subjects" => "Math"
+    ),
+     array(
+        "age" => 22,
+        "grade" => "B",
+        "subjects" => "History",
+    ),
+     array(
+        "age" => 21,
+        "grade" => "C",
+        "subjects" =>  "Chemistry"
+    )
 );
+
+
+
+foreach ($students as $name=>$value){
+    foreach($value as $v => $v1){
+        echo $v . "=>" . $v1 . "<br>";
+    }
+}
+
 ?>
-
-
-<?php 
-foreach($employees as $e=>$value ) {
-    ?>
-
-
-<p> <b><?php echo ucwords($e)?>:</b><?php echo $value ?></p>
-
-<?php } ?>
